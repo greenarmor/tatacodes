@@ -1,6 +1,6 @@
 # Tata Coding Agent 0.0.1
 
-Tata Coding Agent is a rebranded distribution of the Codex TUI command-line interface design for Neovim uability. This repository packages the prebuilt `dist/tata` binary alongside a lightweight Node.js launcher (`bin/tata.js`) so you can install the tool globally through modern JavaScript package managers.
+Tata Coding Agent is a rebranded distribution of the Codex TUI command-line interface design for Neovim usability. This repository packages the prebuilt `dist/tata` binary alongside a lightweight Node.js launcher (`bin/tata.js`) so you can install the tool globally through modern JavaScript package managers.
 
 ## Global installation from a local checkout
 
