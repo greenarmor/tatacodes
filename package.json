@@ -1,0 +1,8 @@
+{
+  "name": "tata",
+  "version": "0.0.1",
+  "bin": {
+    "jesse": "./bin/tata.js"
+  },
+  "type": "module"
+}
