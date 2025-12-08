@@ -23,7 +23,7 @@ Tata Coding Agent is a rebranded distribution of the Codex TUI command-line inte
 
 ```bash
 npm install -g @greenarmor/tatacodes
-
+ # or
 pnpm install -g @greenarmor/tatacodes
 ```
 

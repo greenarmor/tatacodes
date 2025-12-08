@@ -1,8 +1,8 @@
 {
-  "name": "tata",
+  "name": "@greenarmor/tatacodes",
   "version": "0.0.1",
   "bin": {
-    "jesse": "./bin/tata.js"
+    "jesse": "bin/tata.js"
   },
   "type": "module"
 }
