@@ -1,8 +1,14 @@
 {
   "name": "@greenarmor/tatacodes",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "bin": {
     "tata": "bin/tata.js"
   },
-  "type": "module"
+  "type": "module",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "x64"
+  ]
 }

@@ -1,6 +1,8 @@
-# Tata Coding Agent 0.0.1
+# Tata Coding Agent 0.0.2
 
 Tata Coding Agent is a rebranded distribution of the Codex TUI command-line interface design for Neovim usability. This repository packages the prebuilt `dist/tata` binary alongside a lightweight Node.js launcher (`bin/tata.js`) so you can install the tool globally through modern JavaScript package managers.
+
+Tata Coding Agent currently bundles a prebuilt **Linux x64** binary only.
 
 ## Global installation from a local checkout
 
@@ -9,22 +11,23 @@ Tata Coding Agent is a rebranded distribution of the Codex TUI command-line inte
    git clone https://github.com/greenarmor/tatacodes.git
    cd tatacodes
    ```
-2. Install globally with your preferred package manager:
+2. Install globally with your preferred package manager **from inside the cloned repository**:
    ```bash
-   npm install -g ./tatacodes
+   npm install -g .
    # or
-   pnpm add -g ./tatacodes
+   pnpm add -g .
    ```
 3. Confirm the CLI is on your PATH (the command is exported as `tata`, matching the `package.json` `bin` field):
    ```bash
    tata --version
    ```
-## Install from npm Package Manager site
+
+## Install from the npm registry
 
 ```bash
 npm install -g @greenarmor/tatacodes
- # or
-pnpm install -g @greenarmor/tatacodes
+# or
+pnpm add -g @greenarmor/tatacodes
 ```
 
-After installation, run `tata --help` to access the Tata Coding Agent 0.0.1
+After installation, run `tata --help` to access Tata Coding Agent 0.0.2.
